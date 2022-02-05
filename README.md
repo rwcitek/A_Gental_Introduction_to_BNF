@@ -258,6 +258,14 @@ Intro to Bottom up parsing
 
 
 ### Language BNF specifications
+Algo-60
+This also gives a nice definition of the BNF syntax. In this document from
+the CDC Algol compiler manual Appendix D BNF is called "Backus Normal Form"
+Not nice that they left out Peter Naur.
+[http://blackbox.userweb.mwn.de/Algol-BNF.html](http://blackbox.userweb.mwn.de/Algol-BNF.html)
 
 Scheme (R5RS)
 [https://people.csail.mit.edu/jaffer/r5rs_9.html](https://people.csail.mit.edu/jaffer/r5rs_9.html)
+Pascal
+[https://condor.depaul.edu/ichu/csc447/notes/wk2/pascal.html](https://condor.depaul.edu/ichu/csc447/notes/wk2/pascal.html)
+
