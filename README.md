@@ -67,6 +67,20 @@ The above grammars match all these strings:
 
 The above grammar is the canonical "Hello World" of CFGs.
 
+## Regular languages
+
+### Inductive list: Natural numbers
+
+A natural number can be defined in BNF inductively by prepending  the rule to itself
+before a single digit:
+
+```BNF
+<S> ::= <S> <Digit>
+<Digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+```
+
+
+
 ## Types of Context Free Grammars
 
 There are 2 common types of CFGs: "LL(K)" and "LR(K)".
@@ -202,13 +216,61 @@ LR(K) parsers can parse a larger range of of CFGs than LL(K).
 
 A string of tokens that make up a complete instance of a string in a language L.
 Computer source files are examples of sentences.
+
 ### Sentential form
 
 A part of or complete expanse of a sentence.
 A sentitial form is any part of a string that can be derived from the start symbol
 of the language's grammar.
+A  Sentential form consists of any terminal or non terminals after 0 or more steps
+in the derivation has occurred. The final Sentential form is the input sentence
+after the  entire derivation has occurred and consists of only terminal symbols.
+
+### Derivation
+
+A sequence of non terminal expansions that begins with the starting non terminal
+and finishes with a Concrete Syntax/Parse tree where the leaves are all the 
+terminals in the input string.
+
+### Non terminal
+
+A name of a rule that consists of one or more productions. {See Production}
+A non terminal must be expanded into one of its possible productions when
+deriving a string in the language.
+
+### Terminal
+
+A string or token in the language that cannot be further expanded.
+Terminals form the leaves of derivation trees. Terminals can occur in the RHS
+of a production, but cannot occur in the LHS of a rule.
+
+### Production
+
+A production is the RHS of a rule and can consistof one or more of terminals or
+non terminals. A rule can have one or more alternate productions.
+
+### Rule
+
+A rule in a grammar consists of a non terminal, an delimiter and one or more
+productions. {CFG and Regular grammars}
+
+### Grammar
+
+A grammar {in BNF notation} consists of one or more rules. A grammar must
+also indicate the start symbol of the grammar. This might be inferred if the first
+rule in the BNF document is the start symbol.
 
 ## References
+
+BNF: An overiview
+Historical notes and BNF syntax descriptions
+[https:/
+
+
+
+/www.sciencedirect.com/topics/computer-science/backus-naur-form](https://www.sciencedirect.com/topics/computer-science/backus-naur-form)
+Transactional BNF: Wikipedia.org
+[https://en.wikipedia.org/wiki/Translational_BackusNaur_form](https://en.wikipedia.org/wiki/Translational_BackusNaur_form)
 
 [Augemented Backus Naur Form: Wikipedia.org](https://en.wikipedia.org/wiki/Augmented_BackusNaur_form#Comment)
 [Wikipedia.org: Chomsky Language Hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy#The_hierarchy)
