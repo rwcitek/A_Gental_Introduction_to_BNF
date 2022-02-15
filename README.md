@@ -283,6 +283,11 @@ Transactional BNF: Wikipedia.org
 [IETF: RFC 5234](https://datatracker.ietf.org/doc/html/rfc5234)
 [W3C BNF  notation for syntax](https://www.w3.org/Notation.html)
 
+BNF Playground
+Enter some BNF, check it for correctness. Parse some strings or generate strings.
+
+https://bnfplayground.pauliankline.com
+
 [Chao Xu: Context Free Grammars](https://www.youtube.com/watch?v=XnPQElUMRkg)
 [Chao Xu:Finite State Machines](https://www.youtube.com/watch?v=Pt6GBVIifZA)
 [Wikipedia.com: Linear Grammars](https://en.wikipedia.org/wiki/Linear_grammar)
@@ -328,6 +333,24 @@ Not nice that they left out Peter Naur.
 
 Scheme (R5RS)
 [https://people.csail.mit.edu/jaffer/r5rs_9.html](https://people.csail.mit.edu/jaffer/r5rs_9.html)
+
 Pascal
 [https://condor.depaul.edu/ichu/csc447/notes/wk2/pascal.html](https://condor.depaul.edu/ichu/csc447/notes/wk2/pascal.html)
 
+C
+Uses EBNF w/Italics for  nonterminals and bold for terminals.
+https://www2.cs.arizona.edu/~debray/Teaching/CSc453/DOCS/cminusminusspec.html
+
+PL/I (I.B.M. 1964)
+A version was used as the implementation language for MULTICS
+A subset EPL of PLI was used by Doug McIlroy at Bell Labs.
+PL/M (DRI) was the first high level programming language for microcomputers.
+<No BNF could be found>
+
+Ratfor : Rational Fortram: Brian K, P.J. Plauger
+Preprocessor for Fortran/66 control structures from C
+https://en.wikipedia.org/wiki/Ratfor#Features
+
+
+FORTRAN (I.B.M. 19554)
+Although created by team led by John Backus, could not find a BNF for it.
