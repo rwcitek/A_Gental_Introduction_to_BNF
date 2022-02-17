@@ -147,6 +147,9 @@ Wherein, the above strategy to replace direct left recursion can be employed.
 
 A LR(K) grammar is one that can be used to construct a bottom-up parser.
 
+### Paper from Donald Knuth (1965)
+
+[https://web.archive.org/web/20120315152151/http://www.cs.dartmouth.edu/~mckeeman/cs48/mxcom/doc/knuth65.pdf](https://web.archive.org/web/20120315152151/http://www.cs.dartmouth.edu/~mckeeman/cs48/mxcom/doc/knuth65.pdf)
 
 
 ### Top down parsers
