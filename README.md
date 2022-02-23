@@ -37,6 +37,11 @@ South Eastern Michigan BSD User's Group on 03/15/2022
     + First use of Recursion
 11.  Simple of CFG
 
+## Links from Ed's Bio:
+
+CroMemCo ROM.
+[https://en.wikipedia.org/wiki/Cromemco](https://en.wikipedia.org/wiki/Cromemco)
+
 
 ## Detailed Venn Diagram of Grammar types
 

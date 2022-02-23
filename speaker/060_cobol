@@ -1,0 +1,23 @@
+As you can probably guess, I never accomplished that goal.
+NASA sure let me down there.
+So, next I set off on a Naval career, posted first to London, U.K.
+While there,  since the Navy had trained me in digital electronics and computer hardware,
+I got interested inusing microcomputers and ROMs to replace many logic gates.
+That was a very expensive new hobby at the time. I had to sell my T.I.
+SR-52 programmable calculator with mag card reader/writer to be able to
+a Z-80 CPU.
+Over about a year of scrounging and scrimpimg, I managed to cobbletogether a S-100 bus
+computer w/ 1K of static RAM, a single serial RS-232  port and a a CroMenCo monitor ROM.
+CroMenCo, founded, incidently in 1974 while I was laying down my first program,
+stood for Crothers Memorial Hall? @ Stanford.
+
+My problem turned out that it was too laborious to enter programs in Hex
+one byte at a time. Fun at first, but it gets old real fast.
+
+So, I set about learning some higher level programming languages.
+The Admiral's staff had an agreementwith some London colleges and Unis
+to teach accredited college courses. I took up the programming languages track.
+The first course was in COBOL, or Common Business Oriented Language.
+I suspect the Nave had a fondness for that one due to Rear Admiral Grace Hopper.
+
+Here is the BNF for COBOL.
