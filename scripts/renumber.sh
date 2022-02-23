@@ -1,3 +1,4 @@
+# source this file: source renumber.sh
 fin () 
 { 
     echo "$1" | cut -d _ -f 2-
@@ -37,6 +38,6 @@ main1() {
     f="${files[$i]}"
     nd=$(fin $f)
     st=$(nfmt "($i + 1) * 10")
-    git mv $f "${st}${nd}"
+    git mv $f "${st}_${nd}"
   done
 }
