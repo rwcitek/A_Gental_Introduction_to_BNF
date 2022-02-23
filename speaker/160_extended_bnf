@@ -1,0 +1,26 @@
+I find it mightly confusing thatmany examples of formal mathematical notation use some mix
+of well known symbols and the author's own constructions. I guess students getused to this weirdness eventually.
+
+
+Nowhere else does this occur as much in computer science as in the many
+varieties of BNF.  A possible reason for this is the need to first print
+things on ASCII-only printers and the move to more typographical settings found in
+journals and textbooks.
+
+POBNF, or Plain Old BNF, can did get more verbose, especially for common
+constructs like optionality and repitition.
+
+These are the usual forms of Extended BNF or EBNF you generally will find on the web.
+Later, we will see a complete language written in EBNF. It is Turing complete, but
+very simple and short. Easily consumable in a single look-thru.
+
+
+As a counter to this form of EBNF, consider that used by the authors of the 'sudoers'
+manual page: 
+man 5 sudoers
+
+
+
+
+
+There you go. You do not even have to leave the comfort of your shell to explore EBNF.

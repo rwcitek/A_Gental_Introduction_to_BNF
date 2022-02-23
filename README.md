@@ -42,6 +42,12 @@ South Eastern Michigan BSD User's Group on 03/15/2022
 CroMemCo ROM.
 [https://en.wikipedia.org/wiki/Cromemco](https://en.wikipedia.org/wiki/Cromemco)
 
+AT&T 3B series of minicomputers:
+[https://en.wikipedia.org/wiki/3B_series_computers#History](https://en.wikipedia.org/wiki/3B_series_computers#History)
+
+B. S. FAQ about C++ predecessor called "C with Classes"
+[https://web.archive.org/web/20160206214150/http://www.stroustrup.com/bs_faq.html#invention](https://web.archive.org/web/20160206214150/http://www.stroustrup.com/bs_faq.html#invention)
+
 
 ## Detailed Venn Diagram of Grammar types
 
@@ -272,11 +278,11 @@ rule in the BNF document is the start symbol.
 
 BNF: An overiview
 Historical notes and BNF syntax descriptions
-[https:/
+[https://www.sciencedirect.com/topics/computer-science/backus-naur-form](https://www.sciencedirect.com/topics/computer-science/backus-naur-form)
 
+Compiler Construction Book. An overview:
+[https://www.sciencedirect.com/topics/computer-science/compiler-construction](https://www.sciencedirect.com/topics/computer-science/compiler-construction)
 
-
-/www.sciencedirect.com/topics/computer-science/backus-naur-form](https://www.sciencedirect.com/topics/computer-science/backus-naur-form)
 Transactional BNF: Wikipedia.org
 [https://en.wikipedia.org/wiki/Translational_BackusNaur_form](https://en.wikipedia.org/wiki/Translational_BackusNaur_form)
 
@@ -290,6 +296,14 @@ Transactional BNF: Wikipedia.org
 
 [IETF: RFC 5234](https://datatracker.ietf.org/doc/html/rfc5234)
 [W3C BNF  notation for syntax](https://www.w3.org/Notation.html)
+
+### Example of ABNF: Internet Mail: RFC 5322
+[https://www.rfc-editor.org/rfc/rfc5322.html](https://www.rfc-editor.org/rfc/rfc5322.html)
+
+### From Matt Might's Blog:
+
+Grammar: The language of Language
+[https://matt.might.net/articles/grammars-bnf-ebnf/](https://matt.might.net/articles/grammars-bnf-ebnf/)
 
 BNF Playground
 Enter some BNF, check it for correctness. Parse some strings or generate strings.
@@ -359,6 +373,26 @@ Ratfor : Rational Fortram: Brian K, P.J. Plauger
 Preprocessor for Fortran/66 control structures from C
 https://en.wikipedia.org/wiki/Ratfor#Features
 
+### Python
+
+The full [E]BNF notation for Python version 3.10 can be found at:
+[https://docs.python.org/3/reference/grammar.html](https://docs.python.org/3/reference/grammar.html)
+
+It uses a combination of EBNF and PEG notation. One more example of the many
+varieties of BNF in the wild!
+
 
 FORTRAN (I.B.M. 19554)
 Although created by team led by John Backus, could not find a BNF for it.
+
+
+### Ruby
+
+EBNF syntax for Ruby [PDF]
+[https://cse.buffalo.edu/~regan/cse305/RubyBNF.pdf]{https://cse.buffalo.edu/~regan/cse305/RubyBNF.pdf}
+
+Ruby still uses Bison, a YACC-like parser generator to create its parser.
+Ruby is, therefore, a LR(1) language.
+
+The latest Bison input for Ruby 3.1:
+[https://github.com/ruby/ruby/raw/master/parse.y](https://github.com/ruby/ruby/raw/master/parse.y)
