@@ -287,13 +287,22 @@ Transactional BNF: Wikipedia.org
 [https://en.wikipedia.org/wiki/Translational_BackusNaur_form](https://en.wikipedia.org/wiki/Translational_BackusNaur_form)
 
 [Augemented Backus Naur Form: Wikipedia.org](https://en.wikipedia.org/wiki/Augmented_BackusNaur_form#Comment)
+
+
+### Chomsky Language Hierarchy
+
 [Wikipedia.org: Chomsky Language Hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy#The_hierarchy)
 
 
 
 
 
+### Linear bound automatas for recognizing Context Sensitive Languages : CSG
 
+[https://en.wikipedia.org/wiki/Linear_bounded_automaton#Operation](https://en.wikipedia.org/wiki/Linear_bounded_automaton#Operation)
+
+
+### ABNF
 [IETF: RFC 5234](https://datatracker.ietf.org/doc/html/rfc5234)
 [W3C BNF  notation for syntax](https://www.w3.org/Notation.html)
 
@@ -396,3 +405,26 @@ Ruby is, therefore, a LR(1) language.
 
 The latest Bison input for Ruby 3.1:
 [https://github.com/ruby/ruby/raw/master/parse.y](https://github.com/ruby/ruby/raw/master/parse.y)
+
+## Books
+
+Parsing techniques: A practical guide
+[https://www.amazon.com/gp/product/1441919015/ref=as_li_ss_tl?ie=UTF8&tag=mmamzn06-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1441919015#customerReviews\](https://www.amazon.com/gp/product/1441919015/ref=as_li_ss_tl?ie=UTF8&tag=mmamzn06-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1441919015#customerReviews)
+
+
+### The "Dragon" book: Compilers: Principals, Techniques and Tools
+
+Two of its authors, Alfred Aho and Jeffery Ullman, are Turing award winners and also worked at Bell Labs.
+[https://www.thriftbooks.com/w/compiladores-principios-tecnicas-y-herramientas_alfred-v-aho/248872/item/1373766/?gclid=Cj0KCQiA09eQBhCxARIsAAYRiylIBhuBwpATDYEeR09nS1W8FaRmCmoMLOiOWbKupGCOpFbbm7N0h5YaAlAhEALw_wcB#TBContent](https://www.thriftbooks.com/w/compiladores-principios-tecnicas-y-herramientas_alfred-v-aho/248872/item/1373766/?gclid=Cj0KCQiA09eQBhCxARIsAAYRiylIBhuBwpATDYEeR09nS1W8FaRmCmoMLOiOWbKupGCOpFbbm7N0h5YaAlAhEALw_wcB#TBContent)
+
+A cheaper version of the original 1986 edition.
+
+
+
+## Papers
+
+Turing, Alan M. (1936) On the  Computable Numbers with an application to
+
+The original, and still the best.
+
+PDF: [https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
