@@ -406,6 +406,24 @@ Ruby is, therefore, a LR(1) language.
 The latest Bison input for Ruby 3.1:
 [https://github.com/ruby/ruby/raw/master/parse.y](https://github.com/ruby/ruby/raw/master/parse.y)
 
+### Internet Protocols
+
+Network  News Transfer Protocol
+RFC 3977
+[https://www.rfc-editor.org/rfc/rfc3977.html#page-90](https://www.rfc-editor.org/rfc/rfc3977.html#page-90)
+
+File Transfer Protocol  FTP
+RFC 114
+
+[https://www.rfc-editor.org/rfc/rfc114.html](https://www.rfc-editor.org/rfc/rfc114.html)
+
+
+### Data or Configuration languages
+
+#### Javascript Object Notation JSON
+
+[https://cswr.github.io/JsonSchema/spec/grammar/](https://cswr.github.io/JsonSchema/spec/grammar/)
+
 ## Books
 
 Parsing techniques: A practical guide
@@ -428,3 +446,35 @@ Turing, Alan M. (1936) On the  Computable Numbers with an application to
 The original, and still the best.
 
 PDF: [https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
+
+### Videos
+
+Peter Naur ACM AM Turing award lecture
+[https://amturing.acm.org/vp/naur_1024454.cfm](https://amturing.acm.org/vp/naur_1024454.cfm)
+
+
+
+
+### ACM AM Turing Awardees
+
+John Backus: 1977
+
+For profound, influential, and lasting contributions to the design of practical high-level programming systems, notably through his work on FORTRAN, and for seminal publication of formal procedures for the specification of programming languages.
+
+
+The latter is in recognization of his work on BNF
+
+[https://amturing.acm.org/award_winners/backus_0703524.cfm](https://amturing.acm.org/award_winners/backus_0703524.cfm)
+
+Turing Award lecture
+PDF
+[https://dl.acm.org/ft_gateway.cfm?id=1283933&type=pdf](https://dl.acm.org/ft_gateway.cfm?id=1283933&type=pdf)
+Peter Naur
+
+
+
+## History and Miscellany
+
+I.B.M. Selective Sequence Electronic Calculator. Electro-Mechanical computer)
+
+[https://en.wikipedia.org/wiki/IBM_SSEC](https://en.wikipedia.org/wiki/IBM_SSEC)

@@ -12,14 +12,15 @@
   * Or CamelCase for lexical token names: E.g. Ident, WhiteSpace, .etc
 - Alternation operator: "|" 
 - Epsilon  : Empty string. Actually: Nondeterministic connector
-
+- Comment start character ";" Comment continues to end of line
 
 
 ```bnf
-<S> ::= <NonTerminal>
-NonTerminal> ::= TerminalA <NonTerminal2> foo "bar baz" | Eps
-<NonTerminal2> ::= a ", "
-````
+; Here Be Dragons
+<S> ::= <NonTerminal>                                           ; Start symbol is often <S>
+NonTerminal> ::= TerminalA <NonTerminal2> foo "bar baz" | Eps   ; Eps is text for Greek symbol: Epsilon
+<NonTerminal2> ::= a ", "                                       ; Two terminals: 'a' and ', '
+```
 
 
 ```bash
