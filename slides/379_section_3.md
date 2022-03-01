@@ -34,3 +34,9 @@ The process by which a finite state machine  performs an computation over a give
 - NFA  : Nondeterministic Finite Automata
 
 All FSMs are classified by the above 2 types
+
+
+## Push Down Automata
+
+PDAs have the additional property in that they have a stack for memory.
+PDAs are thus more powerful than DFAs. PDAs are also nondeterministic
