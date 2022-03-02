@@ -9,6 +9,9 @@ s.ndx() {
 s.len() {
   echo ${#stack[@]}
 }
+empty() {
+  [ $(s.len) -eq 0 ]
+}
 # push $U
 push() {
   val=$1
