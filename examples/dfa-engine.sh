@@ -10,18 +10,18 @@ len() {
 # delta fn
 delta() {
   st=$1; ch=$2
-  declare -A lut=( ["S0,f"]=S1 ["S1,o"]=S2 ["S2,o"]=S3 )
+  declare -A lut=( ["S0,f"]=S1 ["S1,o"]=S2 ["S2,o"]=S3 ["S3,b"]=S4 ["S4,a"]=S5 ["S5,r"]=S6 )
   echo ${lut["${st},${ch}"]}
 }
 
 
 # store string
-STR="foobarbaz"
+STR="foobar"
 state=S0 # Set the start state
 
 N=$(len)
 echo N is $N
-for OFF in {1..10}
+for OFF in {1..6}
 do
   echo state: $state : char $(next)
   state=$(delta $state $(next))
