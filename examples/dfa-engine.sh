@@ -31,7 +31,6 @@ for OFF in $(seq 1 $N)
 do
 #  echo state: $state : char $(next)
   state=$(delta $state $(next))
-  OFF=$(echo "$OFF + 1" | bc)
 done
 echo Final state $state
 final $state || exit 1
