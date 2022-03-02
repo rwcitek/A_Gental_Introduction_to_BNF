@@ -27,7 +27,7 @@ state=S0 # Set the start state
 
 N=$(len $STR)
 echo N is $N
-for OFF in {1..6}
+for OFF in $(seq 1 $N)
 do
 #  echo state: $state : char $(next)
   state=$(delta $state $(next))
