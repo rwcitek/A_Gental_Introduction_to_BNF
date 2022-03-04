@@ -4,13 +4,19 @@
 
 ## Section 3
 
-The last section wherein we discussing parsers
+The last section wherein we are discussing parsers
 
 
 ### Computational Mechanics
 
-Computational Mechanics aas defined by Alan Turing in his paper
+Based on Stephen Wolfram's book: A New Kind of Science
 
+
+The basic thrust of his book is that the physical world can best be understood
+as having at bottom a celluar automata substrate. IOW, if I understand his premise at all,
+our world is made up of tiny little Turing machines.
+
+Computational Mechanics as defined by Alan Turing in his paper
 
 "On Computable Numbers and their application to the E problem" (sic)
 

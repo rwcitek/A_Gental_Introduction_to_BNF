@@ -8,10 +8,11 @@
 
 This is where theory and practice diverge.
 
-- Theta function : Converts current state and input symbol into stack actions
 - Gamma: 'L' 'X'
-- final function checks for empty stack as well last state is in set F.
-- Body of loop, after dealing with delta function, calls theta function with same parameters
+- final function checks for end of input. Stack does not have to be empty
+  * The empty stack symbol: 'E' will drive the state transaction
+- Body of loop, after dealing with delta function,  need to split out state and stack actions
+  * Split the new state
   * Splits return value into $O, $U
   * Calls pop $O; push $U
   * If $O, $U is 'X', does nothing
