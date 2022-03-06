@@ -3,10 +3,14 @@
 
 ##### Key slide
 
+## Context Free languages are classified by their acceptors.
+
+
+
 ## Many acronyms but all boild down 2. (Out of 4)
 
-LX, where X is L or R.
-
+LX(K), where X is L or R.
+K is >= 0 and means the number of symbols to look ahead in teh input.
 First letter is direction of text scan. E.g. L: Left to right.
 
 Second letter is type of derivation

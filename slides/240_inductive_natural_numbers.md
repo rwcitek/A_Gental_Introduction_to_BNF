@@ -9,7 +9,7 @@ A natural number can be defined inductively as a  a natural number followed by a
 ```bnf
 <S> ::=  <NaturalNumber>
 <NaturalNumber> ::= <NaturalNumber> <Digit>
-                    | Eps
+                    | <Digit>
 <Digit> ::= "0" | "1" | "2" |" 3" | "4" | "5" | "6" |" 7" | "8" | "9"
 ```
 

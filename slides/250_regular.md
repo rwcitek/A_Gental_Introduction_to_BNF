@@ -16,7 +16,8 @@ A language is regular over some alphabet (Sigma) if it is one of:
 - A repitition of 0 or more of any the above
 
 
-Parens can be used to disambiguate any of the above constructs.
+In regular expressions, certain symbols functions as operators for the above operations.
+ Parens can be used to disambiguate any of the above constructs.
 -  
 
 

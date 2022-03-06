@@ -1,0 +1,29 @@
+Change LL, LR to include top-down, bottom-up
+  * remove these slides
+New slide for derivation and ambiguity
+A single slide for:
+
+1. LL - mention recursive descent parser, others
+2. LR Mention YACC-style parser generators
+  * Mention LALR, SLR and GLR
+  * mention GLR can be cubic complexity
+
+250_regular.md
+260_context_free.md
+280_types_cfg.md
+290_derivation_trees.md
+310_ll.md
+350_lr.md
+360_ll_lr_conclusion.md
+379_section_3.md
+380_parsing.md
+410_nda.md
+413_dfa_example.md
+415_bash_dfa.md
+420_pda.md
+423_pda_example.md
+425_bash_pda.md
+430_nondeterminism.md
+440_epsilon.md
+450_palindromes.md
+460_conclusion.md
