@@ -437,6 +437,9 @@ Two of its authors, Alfred Aho and Jeffery Ullman, are Turing award winners and 
 
 A cheaper version of the original 1986 edition.
 
+Wolfram, S. A New Kind of Science
+[https://en.wikipedia.org/wiki/A_New_Kind_of_Science#Computation_and_its_implications](https://en.wikipedia.org/wiki/A_New_Kind_of_Science#Computation_and_its_implications)
+
 
 
 ## Papers
@@ -447,6 +450,15 @@ The original, and still the best.
 
 PDF: [https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
 
+Notes from college class on computational models
+Extensive notes on LALR(1) parsers
+[https://kentdlee.github.io/ComputationalModels/build/html/chap7/index.html](https://kentdlee.github.io/ComputationalModels/build/html/chap7/index.html)
+
+Description of PDAs including a palindrome matcher
+[https://www.cs.odu.edu/~zeil/cs390/latest/Public/pushdown/index.html](https://www.cs.odu.edu/~zeil/cs390/latest/Public/pushdown/index.html)
+
+PDAs in Google slides:
+[https://docs.google.com/presentation/d/1AEFABA2dypaHVo4m7K74RZhp6Pd9eKakJdFiuIGU42g/htmlpresent](https://docs.google.com/presentation/d/1AEFABA2dypaHVo4m7K74RZhp6Pd9eKakJdFiuIGU42g/htmlpresent)
 ### Videos
 
 Peter Naur ACM AM Turing award lecture

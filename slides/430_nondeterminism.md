@@ -38,3 +38,14 @@ state.
 Both FSMs will proceed in lock step consuming the exact same input and moving 
 along their own state transition paths.
 
+
+## Implication of look ahead > 0
+
+Nondeterminism can be thought of computationally expensive. Consequently,
+when constructing the state table, it is prudent to look ahead in the grammar
+for a possible (eventually derived) terminal symbol that can be used to constrain
+any useless nondeterminism.
+
+
+
+Therefore, most LR(1) can be simplified to be deterministic and not nondeterministic.
