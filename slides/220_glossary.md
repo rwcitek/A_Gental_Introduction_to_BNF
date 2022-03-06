@@ -16,7 +16,7 @@ Terminal : An atomic symbol that cannot be further derived. May be a literal str
 Rule : The nonterminal, the derives operator and all of its possible alternative productions.
 - Derivation  : The continuous  expansion of a particular  nonterminal's possible production alternate
 - Derivation tree : See Concrete Syntax Tree
-- Concrete Syntax Tree :  The parse tree formed by applying the derivatio of the start symbol.
+- Concrete Syntax Tree :  The parse tree formed by applying the derivation of the start symbol.
   * Formed of nonterminal nodes and terminal leaves
   * Leaf terminals, read from left to right,  form a legal sentence in the language
   * See also: Abstract Syntax tree

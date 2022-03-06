@@ -23,5 +23,5 @@ You will need:
   * Sets current state from delta function return triple
   * Performs possible pop action and push action from remaining elements of triple from delta.
 - A conditional after theloop terminates
-  * Check if current state is in  F, the set of posible final states
+  * Check if current state is in  F, the set of possible final states
   * Return true if it is, else false otherwise

@@ -7,7 +7,7 @@
 - Strong static tyupes
 - Lexically scoped (McCarthy influence?)
 - Both function parameter passing by reference and by value
-  * This allowd recursion to be introduced at the last minute.
+  * This allowed recursion to be introduced at the last minute.
 
 ## Criticisms of Algol 60
 

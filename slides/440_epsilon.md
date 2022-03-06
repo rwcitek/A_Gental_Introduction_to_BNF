@@ -9,7 +9,7 @@ in the Epsilon column, it will always take that branch. IOW: A spawned FSM
 will be launched along the new  state path.
 
 
-### Implications of the existance of Epsilon for the the delta LUT
+### Implications of the existence  of Epsilon for the the delta LUT
 
 - Blank entries must therefore exist for states without matching Epsilon columns
 - Epsilon moves are always taken. If a state is entered, the next state immediately becomes the current state

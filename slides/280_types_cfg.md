@@ -10,7 +10,7 @@
 ## Many acronyms but all boild down 2. (Out of 4)
 
 LX(K), where X is L or R.
-K is >= 0 and means the number of symbols to look ahead in teh input.
+K is >= 0 and means the number of symbols to look ahead in the input.
 First letter is direction of text scan. E.g. L: Left to right.
 
 Second letter is type of derivation

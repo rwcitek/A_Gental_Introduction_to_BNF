@@ -4,7 +4,7 @@
 
 ## Lexical content
 
-Defginition: Of or relating to words in a vocabularity.
+Defginition: Of or relating to words in a vocabulary .
 
 
 

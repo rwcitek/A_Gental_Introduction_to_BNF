@@ -15,7 +15,7 @@ Every nonterminal node and its immediate children consist of a sentential form f
 Leaf nodes are exactly the terminals encountered inthe same order of the input.
 
 The leaf nodes at the bottom for the whole tree with its start symbol at the root
-form all of the imput.
+form all of the input.
 Any child nonterminal node's leafs form that part  of its sentential form.
 
 ## Differences between LL and LR derivation trees

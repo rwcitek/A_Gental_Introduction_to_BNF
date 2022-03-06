@@ -17,7 +17,7 @@
 - 1977 A.C.M A.M. Turing Award
   * For his work on first compiler (FORTRAN) and Language specification (BNF)
   * Turing Award lecture on Functional Programming.
-- Professor at California Berkley U in late 1960's.
+- Professor at California Berkeley  U in late 1960's.
 - Retired: 1991
 - Died 2007
 - Has asteroid named for him (2007)

@@ -18,7 +18,7 @@ You will need:
   * Body of loop only calls delta function with current state and current input symbol
   * Return value from delta function becomes current state
 - A conditional after theloop terminates
-  * Check if current state isin F, the set of posible final states
+  * Check if current state isin F, the set of possible final states
   * Return true if it is, else false otherwise
 
 
