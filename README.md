@@ -280,6 +280,9 @@ BNF: An overiview
 Historical notes and BNF syntax descriptions
 [https://www.sciencedirect.com/topics/computer-science/backus-naur-form](https://www.sciencedirect.com/topics/computer-science/backus-naur-form)
 
+History and background of BNF from Wikipedia.org
+[https://en.wikipedia.org/wiki/BackusNaur_form](https://en.wikipedia.org/wiki/BackusNaur_form)
+
 Compiler Construction Book. An overview:
 [https://www.sciencedirect.com/topics/computer-science/compiler-construction](https://www.sciencedirect.com/topics/computer-science/compiler-construction)
 
@@ -287,6 +290,9 @@ Transactional BNF: Wikipedia.org
 [https://en.wikipedia.org/wiki/Translational_BackusNaur_form](https://en.wikipedia.org/wiki/Translational_BackusNaur_form)
 
 [Augemented Backus Naur Form: Wikipedia.org](https://en.wikipedia.org/wiki/Augmented_BackusNaur_form#Comment)
+
+Meta notation for formal language specification
+[https://en.wikipedia.org/wiki/Metasyntax#Specific_metasyntax_conventions](https://en.wikipedia.org/wiki/Metasyntax#Specific_metasyntax_conventions)cd sli  
 
 
 ### Chomsky Language Hierarchy

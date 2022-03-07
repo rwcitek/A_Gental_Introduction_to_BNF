@@ -15,6 +15,24 @@
 - Comment start character ";" Comment continues to end of line
 
 
+### The Derives operator "::="
+
+This operator applies whenever you see a nonterminal and means rewrite
+this nonterminal with the following symbols to the right. Thus, each rule is called a rewriting rule.
+
+#### Other convention you might encounter
+
+Instead of specifying an alternative with the "|" operator, sometimes there is just
+another copy of the nonterminal rewrite rule on the next line:
+
+```bnf
+<NonTerminal> ::= <A> a <B>
+<NonTerminal> ::= <B> b
+```
+
+
+## Our syntax example we will use tonight
+
 ```bnf
 ; Here Be Dragons
 <S> ::= <NonTerminal>                                           ; Start symbol is often <S>
