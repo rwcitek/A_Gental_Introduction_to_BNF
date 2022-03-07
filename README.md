@@ -283,6 +283,12 @@ Historical notes and BNF syntax descriptions
 History and background of BNF from Wikipedia.org
 [https://en.wikipedia.org/wiki/BackusNaur_form](https://en.wikipedia.org/wiki/BackusNaur_form)
 
+What are rewriting systems?
+[https://en.wikipedia.org/wiki/Rewriting](https://en.wikipedia.org/wiki/Rewriting)
+
+What is a "Normal Form" and why is not BNF one?
+[https://en.wikipedia.org/wiki/Normal_form_(abstract_rewriting)](https://en.wikipedia.org/wiki/Normal_form_(abstract_rewriting))
+
 Compiler Construction Book. An overview:
 [https://www.sciencedirect.com/topics/computer-science/compiler-construction](https://www.sciencedirect.com/topics/computer-science/compiler-construction)
 
