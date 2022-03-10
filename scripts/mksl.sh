@@ -7,7 +7,7 @@ cat <<EOD > "${num}_${name}.md"
 
 ---
 
-### $name
+
 EOD
 
 }

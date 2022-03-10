@@ -1,9 +1,7 @@
 
 ---
 
-# glossary
-
-## Glossary
+### Glossary
 
 - Grammar : The rules of a particular language. Often represented by BNF.
 - Sentence  : A legal string in the language according the rules of the grammar.
