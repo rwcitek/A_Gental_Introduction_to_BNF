@@ -462,6 +462,10 @@ The original, and still the best.
 
 PDF: [https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
 
+Notes about regular sets, regular expressions and regular languages:
+[https://www.includehelp.com/toc/regular-sets-and-their-properties-in-theory-of-computation.aspx](https://www.includehelp.com/toc/regular-sets-and-their-properties-in-theory-of-computation.aspx)
+
+
 Notes from college class on computational models
 Extensive notes on LALR(1) parsers
 [https://kentdlee.github.io/ComputationalModels/build/html/chap7/index.html](https://kentdlee.github.io/ComputationalModels/build/html/chap7/index.html)
@@ -476,6 +480,8 @@ PDAs in Google slides:
 Peter Naur ACM AM Turing award lecture
 [https://amturing.acm.org/vp/naur_1024454.cfm](https://amturing.acm.org/vp/naur_1024454.cfm)
 
+Donald Knuth on his love of Context Free Languages
+[https://www.webofstories.com/play/donald.knuth/30](https://www.webofstories.com/play/donald.knuth/30)
 
 
 
