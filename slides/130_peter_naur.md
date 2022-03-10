@@ -1,4 +1,6 @@
+
 ---
+
 # peter_naur
 
 ## Peter Naur  Danish Computer Scientist

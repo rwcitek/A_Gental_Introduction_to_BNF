@@ -1,13 +1,14 @@
----
-# chomsky
 
+---
+
+### chomsky
 
 ##### Key slide
 
 ## Chomsky language hierarchy
 
 Defines types of languages and terms used in practice.
-### Important proof
+### Important result
 
 Noam Chomsky shown in the 1950's that formal language class types are in direct
 correspondence with acceptors also known as recognizers and parsers.
@@ -21,6 +22,9 @@ by a certain finite state machine having power matching that language level.
 1. Context Sensitive  Languages. Type of recognizer: Linear Bound Automata
 2. Context Free Language. Type recognizer: Push Down Automata
 3. Regular Language Type of recognizer: Deterministic Finite Automata
+
+![Venn diagram of Chomsky language hierarchy](images/ven_diagram.png "Ven diagramof Chomsky Language hierarchy") 
+
 
 ## Space complexity of recognizers
 

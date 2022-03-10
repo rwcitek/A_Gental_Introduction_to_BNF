@@ -1,4 +1,10 @@
 Change LL, LR to include top-down, bottom-up
+
+Split  chomsky into multope  slides due to lines per page being less than 10
+Remove key slides
+Change all H1 to H3
+remove divs 
+Make slide number in Config.toml
   * remove these slides
 New slide for derivation and ambiguity
 A single slide for:
