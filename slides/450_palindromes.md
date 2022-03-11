@@ -1,10 +1,10 @@
 
 ---
 
-# palindromes
+### palindromes
 
 
-## A simple example of nondeterminism: Palindromes
+### A simple example of nondeterminism: Palindromes
 
 Our balanced parens CFG showed how to use a stack to check for syntax correctness.
 Applying the same strategy, we can push symbols from the input onto the stack
@@ -14,7 +14,7 @@ and the stack is empty when the input is exhausted, it is a palindrome.
 
 
 
-## Two types of Palindromes
+### Two types of Palindromes
 
 - Odd palindromes with a central symbol. Length of string is odd.
 - Even palindromes with no central pivot symbol

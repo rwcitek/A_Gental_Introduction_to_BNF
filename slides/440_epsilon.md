@@ -1,9 +1,9 @@
 
 ---
 
-# epsilon
+### epsilon
 
-## The Epsilon symbol
+### The Epsilon symbol
 
 Although it appears as a column in the delta lookup table, epsilon is actually 
 not a terminal symbol from the inmput.  If the state row (from Q) has an entry
@@ -17,7 +17,7 @@ will be launched along the new  state path.
 - Epsilon moves are always taken. If a state is entered, the next state immediately becomes the current state
   * But only the newly spawned child FSM.
 
-## Our simple CFG again: Balanced parens
+### Our simple CFG again: Balanced parens
 
 In the following grammar, we remove the simple terminal symbol: a, and replace
 it with: Eps, or Epsilon.

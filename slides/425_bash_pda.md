@@ -1,9 +1,9 @@
 
 ---
 
-# pda_bash
+### pda_bash
 
-## A example Context Free Language parser inb Bash
+### A example Context Free Language parser inb Bash
 
 
 ### Differences between DFA example and PDA example
@@ -28,7 +28,7 @@ This is where theory and practice diverge.
 #
 ```
 
-## Stack functions
+### Stack functions
 
 
 - empty : 0 if empty, else 1

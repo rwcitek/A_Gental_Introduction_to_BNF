@@ -1,10 +1,10 @@
 
 ---
 
-# dfa_example
+### dfa_example
 
 
-## An example DFA
+### An example DFA
 
 
 ### The basics of finite state machines

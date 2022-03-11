@@ -1,9 +1,9 @@
 
 ---
 
-# bash_dfa
+### bash_dfa
 
-## A example of a simple RegExp engine in Bash
+### A example of a simple RegExp engine in Bash
 
 ```bash
 STR=$1
@@ -19,7 +19,7 @@ final $state || exit 1
 
 next, len are helper shell functions
 
-## The delta and final shell functions
+### The delta and final shell functions
 
 'delta' and 'final'  are user supplied functions.
 

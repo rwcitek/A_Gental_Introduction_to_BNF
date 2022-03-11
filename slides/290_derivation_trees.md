@@ -22,7 +22,7 @@ The leaf nodes at the bottom for the whole tree with its start symbol at the roo
 form all of the input.
 Any child nonterminal node's leafs form that part  of its sentential form.
 
-## Differences between LL and LR derivation trees
+### Differences between LL and LR derivation trees
 
 - LL trees are formed deriving from S downward
   * Each left-most nonterminal is chosen next to derive or expand.

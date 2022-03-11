@@ -1,10 +1,10 @@
 
 ---
 
-# nondeterminism
+### nondeterminism
 
 
-## Nondeterministic Automata
+### Nondeterministic Automata
 
 Nondeterminism is a super power that is granted to deterministic automata.
 It conveys the ability to choose between multiple state transitions given the same input.
@@ -25,7 +25,7 @@ multiple computations are spawned simultaneously.
   * At least one computation completes after all input is consumed, and last state is in set of final states.
 - The string is not recognized if and only if all computations result in a dead state
 
-## Implementation of NFAs
+### Implementation of NFAs
 
 This is similar to the Unix 'fork' system call. Recall that two values will be 
 returned from 'fork'. 0 in the case of the parent process, and 1 in the child.
@@ -41,7 +41,7 @@ Both FSMs will proceed in lock step consuming the exact same input and moving
 along their own state transition paths.
 
 
-## Implication of look ahead > 0
+### Implication of look ahead > 0
 
 Nondeterminism can be thought of computationally expensive. Consequently,
 when constructing the state table, it is prudent to look ahead in the grammar

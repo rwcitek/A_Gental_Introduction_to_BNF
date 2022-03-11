@@ -1,10 +1,10 @@
 
 ---
 
-# ll_lr_conclusion
+### ll_lr_conclusion
 
 
-## What have we learned regarding LL and LR grammars?
+### What have we learned regarding LL and LR grammars?
 
 - The first "L" is left to right scanning of the input
 - LL is left-most derivation.
