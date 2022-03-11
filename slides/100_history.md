@@ -1,7 +1,7 @@
 
 ---
 
-## Early history
+### Early history
 
 Although attempts to formalize languages goes back K's of years to the Sanskrit
 days, it became a lot more interesting in the first half of the 20th century.

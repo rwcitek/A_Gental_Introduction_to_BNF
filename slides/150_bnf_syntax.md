@@ -1,7 +1,7 @@
 
 ---
 
-## Syntax of basic BNF
+### Syntax of basic BNF
 
 - Start nonterminal
 - <NonTerminal> : In CamelCase in pointy brackets

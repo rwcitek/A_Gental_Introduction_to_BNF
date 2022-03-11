@@ -1,7 +1,7 @@
 
 ---
 
-## The Chomsky Ladder of language types
+### The Chomsky Ladder of language types
 
 0. Recursively enumerable languages. Type of recognizer required: Full Turing machine
 1. Context Sensitive  Languages. Type of recognizer: Linear Bound Automata

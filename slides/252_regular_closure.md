@@ -1,7 +1,7 @@
 
 ---
 
-# Closure properties of Regular Languages
+### Closure properties of Regular Languages
 
 Regular languages are closed over the following types of operators:
 

@@ -1,7 +1,7 @@
 
 ---
 
-## Chomsky language hierarchy
+### Chomsky language hierarchy
 
 Defines types of languages and terms used in practice.
 ### Important result
