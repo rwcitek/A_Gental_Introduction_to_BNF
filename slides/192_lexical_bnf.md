@@ -11,10 +11,4 @@ use double quoted string literals to define exact terminals.
 ```bnf
 <Factor> ::= Integer
              | Identifier
-             | "(" <Expression> ")"
 ```
-
-
-
-
-

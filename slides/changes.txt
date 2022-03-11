@@ -33,3 +33,16 @@ A single slide for:
 440_epsilon.md
 450_palindromes.md
 460_conclusion.md
+
+131_algol_60.md
+-- remove these
+132_algol_team.md
+134_algol_60_features.md
+135_algol_bnf.md
+136_algol_60_bnf.md
+
+---
+
+Remove this: 152_*.md
+154_another_bnf_convention.md
+delete 202_grammar_jumble.md

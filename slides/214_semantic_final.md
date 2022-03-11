@@ -3,7 +3,7 @@
 
 ### Final notes about language breakdown
 
-It is notable that compilers and interpreters routinely split the analysis intothese same phases.
+It is notable that compilers and interpreters routinely split the analysis into these same phases.
 
 1. The Lexical Analysis phase.  Input is tokenized into tokens called lexemes.
 2. Syntax analysis.  The input is now a stream of tokens that populate a parse tree according to the rules in the grammar. (BNF)

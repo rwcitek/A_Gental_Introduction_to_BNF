@@ -2,7 +2,7 @@
 ---
 
 From the above we observe that 'flies' can be a verb or a plural noun .
-aAnd fruit, normally a noun, is here an adjective.
+And fruit, normally a noun, is here an adjective.
 
 Ambiguity exists at all levels: 
 

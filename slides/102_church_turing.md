@@ -9,5 +9,4 @@ representation  of  computer programs.
 
 Early assemblers, autocoders and compilers were hand made and specified by the
 user's manual with plenty of examples. These bespoke implementations eventually
-led to a clamoring for some standardizations. Algol-60 became a early attempt
-to  be an international collaboration between notable CS pioneers.
+led to a clamoring for some standardizations.

@@ -6,7 +6,7 @@
 - bit dog the the robot
 
 ```bnf
-<Sentence> ::= <SubjectPhrase> <VerbPhrase>
+<Sentence> ::= <SubjectPhrase> <VerbPhrase> ; Here 
 <SubjectPhrase> ::= <Predicate> <Noun>
 <Predicate> ::= "the" | "a"
 <Noun> ::= "dog" | "robot"
@@ -17,7 +17,3 @@
 ```
 
 - the robot bit the dog
-
-
-
-
