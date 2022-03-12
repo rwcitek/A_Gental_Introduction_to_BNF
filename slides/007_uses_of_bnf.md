@@ -3,7 +3,7 @@
 
 ### Uses of BNF
 
-The man page section 5 for the sudoers file is described in EBNF
+The man page section 5 for the sudoers file is described in EBNF. Different style.
 
 ### Protocols
 
