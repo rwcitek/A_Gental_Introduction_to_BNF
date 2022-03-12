@@ -3,8 +3,6 @@
 
 ### inductive_natural_numbers
 
-### First use of Recursion in BNF: Natural Numbers
-
 A natural number can be defined inductively as a  a natural number followed by a digit.
 Notice the use of recursion in this statement and the following BNF.
 
