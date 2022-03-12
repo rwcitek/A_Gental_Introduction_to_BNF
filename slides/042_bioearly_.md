@@ -1,10 +1,11 @@
 
 ---
 
-### 
+###  Bio
+I am a retired independent software engineer currently living in Kentwood, Mi.
+Most recent professional experience is on the back end of web apps using Ruby on Rails.
 
 ### Early career
-
 - First line of code: 1974: Dartmouth B.A.S.I.C.
 - U.S. Navy Career
   * COBOL,   Fortran,   * PL/I
@@ -12,5 +13,3 @@
 - 3rd job: C/Unix @ AT&T Orlando, Fl.
   * Prevented from installing C++, hottest new language,  so our team did a "C with Classes"-lite version in the preprocessor
   * But, could use built-in tools like 'yacc' and 'lex'
-
-

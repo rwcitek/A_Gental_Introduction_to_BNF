@@ -1,7 +1,6 @@
 
 ---
 
-
 ### Parts of language
 
 We consider only written forms of communication here. Included also is electronic

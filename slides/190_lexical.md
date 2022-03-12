@@ -3,7 +3,9 @@
 
 ### lexical
 
-### Defginition: Of or relating to words in a vocabulary .
+### Definition
+
+Of or relating to words in a vocabulary .
 
 ### Relationship to BNF
 
