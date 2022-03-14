@@ -3,8 +3,6 @@
 
 ### Regular Languages
 
-Definition:As defined by the mathematician  Stephen Cole Kleene:
-
 A language is regular over some alphabet (Sigma) if it is one of:
 
 - Empty set
@@ -13,3 +11,5 @@ A language is regular over some alphabet (Sigma) if it is one of:
 - A union of any the above
 - A repetition  of 0 or more of any the above
 - Parens are used to disambiguate the above
+
+As defined by the mathematician  Stephen Cole Kleene.

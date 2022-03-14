@@ -10,5 +10,5 @@
 - LR parsers are bottom up parsers
 - LL grammars cannot be left recursive
 - LR grammars are a larger subset of context free grammars than LL grammars
-- R parsers are mostly constructed by YACC-like parser generators
 - LL parsers are usually constructed by hand.
+- R parsers are mostly constructed by YACC-like parser generators

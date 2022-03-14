@@ -10,6 +10,3 @@ nonterminal. Working from left to right.
 
 Starting from the leaf nodes in the tree, build up higher and higher nonterminals
 in the tree working from right to left in some production.
-
-
-
