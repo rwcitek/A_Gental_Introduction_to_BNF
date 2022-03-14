@@ -10,4 +10,4 @@ NFAs return one of the alternate states from the delta function in each spawned
 thread. 
 
 Computationally complex, especially in the case of a single threaded system.
-Would require backtracking and thus no longer linear time complexity.
+It would require backtracking and thus no longer linear time complexity.

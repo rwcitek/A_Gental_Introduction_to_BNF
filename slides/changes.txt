@@ -1,4 +1,9 @@
+011- Fix wrap-around Mail
+020 wrap around by Stephen ..
+Remove 023 derivationtree diagram
 Change LL, LR to include top-down, bottom-up
+033 : too many commas
+041 Split into 2 slides because of line limits in slide show
 
 Split  chomsky into multope  slides due to lines per page being less than 10
 Remove key slides

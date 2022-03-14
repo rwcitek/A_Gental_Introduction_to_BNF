@@ -7,7 +7,7 @@ The man page section 5 for the sudoers file is described in EBNF. Different styl
 
 ### Protocols
 
-- I.E.T.F R.F.C. 5234
+- I.E.T.F. R.F.C. 5234
 - HTTP(S)
 - FTP
 - NNTP

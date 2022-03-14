@@ -10,4 +10,4 @@ Differs from regular languages because they can have nesting.
         | a
 ```
 
-Accepts all correctly balanced parenthesis surrounding a single : "a"
+Accepts all correctly balanced parenthesis surrounding a single "a"

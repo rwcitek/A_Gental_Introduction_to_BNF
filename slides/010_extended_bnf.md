@@ -4,7 +4,7 @@
 ### Extended BNF simplifies BNF with constructs borrowed from Regular Expressions
 
 - Optional expressions : lists of 1 or more nonterminals and terminals enclosed in square brackets. "[", "]"
-- Repititions : Lists of 1 or more nonterminals and terminals enclosed in curly braces. "{", "}"
+- Repetitions : Lists of 1 or more nonterminals and terminals enclosed in curly braces. "{", "}"
 - Grouping : Lists of 1 or more nonterminals, terminals or optional or repetitions grouped together in parens. "(", ")"
 
 ```ebnf

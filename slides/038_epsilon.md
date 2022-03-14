@@ -4,7 +4,7 @@
 ### The Epsilon symbol
 
 Although it appears as a column in the delta lookup table, epsilon is actually 
-not a terminal symbol from the inmput.  If the state row (from Q) has an entry
+not a terminal symbol from the input.  If the state row (from Q) has an entry
 in the Epsilon column, it will always take that branch. IOW: A spawned FSM
 will be launched along the new  state path.
 

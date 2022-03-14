@@ -3,7 +3,7 @@
 
 ### parsing
 
-Parsing is the act of scanning the input a singlelexical token at a time
+Parsing is the act of scanning the input a single lexical token at a time
 and constructing a derivation tree based on the grammar and its type: LL or LR.
 
 ### State machines

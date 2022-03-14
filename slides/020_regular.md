@@ -1,7 +1,7 @@
 
 ---
 
-### Regular Languagess
+### Regular Languages
 
 Definition:As defined by the mathematician  Stephen Cole Kleene:
 

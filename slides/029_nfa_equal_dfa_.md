@@ -1,7 +1,7 @@
 
 ---
 
-### Nondeterministic finite automata recognize regular languages, but are not more powerful thanDFAs
+### Nondeterministic finite automata recognize regular languages, but are not more powerful than DFAs
 
 It is easy to translate a regular expression to a NFA.
 

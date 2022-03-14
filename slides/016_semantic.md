@@ -9,4 +9,4 @@ some surrounding context or background knowledge.
 E.g. consider these two sentences with similar words in the same syntax placement:
 
 - Time flies like an arrow
-- Fruit flies like a bannana
+- Fruit flies like a banana
