@@ -1,0 +1,90 @@
+# This gist combines specific commits from two different repos: jekyll-and-slide and reveal.js
+# If there was a way to do this from the browser, this gist would be unnecessary.
+
+# This process does the following:
+# - clones a git repo from GitHub
+# - creates an empty branch named "github-pages"
+# - downloads and modifies the jekyll-and-slides and reaveal.js files 
+# - places the jekyll-and-slides files into the ./docs/ folder
+# - cleans up
+
+# prerequisite: create a repo in GitHub and note repo URL, can be HTTPS or SSH
+REMOTE_URL='git@github.com:rwcitek/A_Gental_Introduction_to_BNF.git'
+<<< $( <<< "${REMOTE_URL}" tr -s '@:/' / ) IFS='/' read scheme host id repo
+
+# clone
+git clone "${REMOTE_URL}"
+cd "${repo%.*}"
+
+# create github-pages branch
+git checkout -b github-pages
+
+# clear out all files
+git ls-files | xargs -r git rm -f &&
+  git commit -am "remove all files"
+
+# create the URL for GitHub Pages
+scheme=https:
+PAGES_URL="${scheme}//${id}.${host%com}io/${repo%.*}"
+
+# do the following in a bash or equivalent shell
+tmpdir=$( mktemp -d /tmp/gh-slidedeck.XXXXXX )
+
+# fetch jekyll-and-slide and reaveal.js
+( cd ${tmpdir}
+curl -L -o jekyll-and-slide.zip https://github.com/adamhollett/jekyll-and-slide/archive/3a9da81031cc48fa4b04f90d8872b8d6c5014c8c.zip
+curl -L -o reveal-js.zip https://github.com/hakimel/reveal.js/archive/bef2722eedd9671a9e0f0f9e553c0863437d1402.zip
+
+# setup Jekyll
+unzip ${tmpdir}/jekyll-and-slide.zip 
+mv jekyll-and-slide-* jekyll-and-slide
+cd jekyll-and-slide
+rm -rf reveal.js/ .gitmodules 
+sed -i -e "/^url:/s#http.*#${PAGES_URL}#;/^baseurl:/s#/.*#/${repo%.*}#" _config.yml
+
+# setup reveal.js
+unzip ${tmpdir}/reveal-js.zip 
+mv reveal.js-* reveal.js
+)
+mv ${tmpdir}/jekyll-and-slide ./docs
+
+# adjust name and e-mail (or not) and commit files
+git config --get user.name | grep -q . || 
+  git config --local user.name "demo"
+git config --get user.email | grep -q . || 
+  git config --local user.email "demo@example.com"
+git add .
+git commit -m "github-pages base"
+
+# push to the remote repo on GitHub
+git push --set-upstream origin github-pages
+
+
+# ==== BNF slides
+# create slides in rwc branch
+git checkout rwc 
+rm -rf slides
+git checkout main slides
+./scripts/gen-slides.sh
+
+
+# reformat slides in github-pages branch
+git checkout github-pages
+sed -e '1,5s/^+++/---/;1,5s/ =/:/ ' \
+  ./hugo/A_Gental_Introduction_to_BNF/content/_index.md \
+  > ./docs/_slides/bnf.md 
+git ls-files docs/_slides/bnf.md | grep -qm1 . ||
+  git add ./docs/_slides/bnf.md
+git commit -am "updated slides"
+git push
+
+
+# enable Pages on GitHub repo page using github-pages branch
+
+
+
+
+
+
+
+
