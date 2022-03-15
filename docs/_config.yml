@@ -12,8 +12,8 @@ reveal:
 title:                Jekyll and Slide
 tagline:              "Markdown slides in Jekyll using reveal.js"
 description:          "A template for creating slide decks using Markdown and <a href='//jekyllrb.com'>Jekyll</a>, using <a href='//github.com/poole/lanyon'>Lanyon</a> by <a href='//twitter.com/mdo'>@mdo</a>."
-url:                  https://rwcitek.github.io/A_Gental_Introduction_to_BNF
-baseurl:              /A_Gental_Introduction_to_BNF
+url:                  https://rwcitek.github.io/A_Gentle_Introduction_to_BNF
+baseurl:              /A_Gentle_Introduction_to_BNF
 markdown:             kramdown
 kramdown:
   input:              GFM
