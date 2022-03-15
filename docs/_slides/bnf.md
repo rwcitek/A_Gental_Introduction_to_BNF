@@ -1,6 +1,6 @@
 ---
-title = "Backus Naur Form"
-outputs = ["Reveal"]
+title: "Backus Naur Form"
+outputs: ["Reveal"]
 ---
 
 ### Backus Naur Form or BNF
