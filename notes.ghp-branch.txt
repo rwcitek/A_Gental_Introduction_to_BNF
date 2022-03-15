@@ -62,7 +62,7 @@ git push --set-upstream origin github-pages
 
 # ==== BNF slides
 # clean up target for slides
-rm -rf ./hugo/A_Gental_Introduction_to_BNF/
+rm -rfv ./hugo/A_Gental_Introduction_to_BNF/
 
 # get latest updates of main branch
 git checkout main
@@ -70,7 +70,7 @@ git pull
 
 # create slides in rwc branch
 git checkout rwc 
-rm -rf slides
+rm -rfv slides
 git checkout main slides
 ./scripts/gen-slides.sh
 
