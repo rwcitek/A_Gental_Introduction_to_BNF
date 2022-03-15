@@ -61,6 +61,9 @@ git push --set-upstream origin github-pages
 
 
 # ==== BNF slides
+# clean up target for slides
+rm -rf ./hugo/A_Gental_Introduction_to_BNF/
+
 # get latest updates of main branch
 git checkout main
 git pull
@@ -84,11 +87,5 @@ git push
 
 
 # enable Pages on GitHub repo page using github-pages branch
-
-
-
-
-
-
 
 
