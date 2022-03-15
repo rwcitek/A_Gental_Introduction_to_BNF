@@ -20,3 +20,6 @@ Ignore, of course, all the additional features that lex gives you like priority,
 Professor @ Uof Wisconson, Madison just west of here. 
 His Doctoral advisor: Alonzo Church
 
+
+
+Are ther any questions regarding regular languages before we proceed on to context free languages?
