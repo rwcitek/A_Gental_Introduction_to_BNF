@@ -61,6 +61,10 @@ git push --set-upstream origin github-pages
 
 
 # ==== BNF slides
+# get latest updates of main branch
+git checkout main
+git pull
+
 # create slides in rwc branch
 git checkout rwc 
 rm -rf slides
