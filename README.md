@@ -501,7 +501,12 @@ PDF
 [https://dl.acm.org/ft_gateway.cfm?id=1283933&type=pdf](https://dl.acm.org/ft_gateway.cfm?id=1283933&type=pdf)
 Peter Naur
 
+## File formats
+YAML
+[https://gist.github.com/tociyuki/3936873](https://gist.github.com/tociyuki/3936873)
 
+JSON (Not official, AFAIK)
+[https://cswr.github.io/JsonSchema/spec/grammar/](https://cswr.github.io/JsonSchema/spec/grammar/)
 
 ## History and Miscellany
 
