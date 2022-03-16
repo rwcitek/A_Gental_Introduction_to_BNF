@@ -1,0 +1,140 @@
+
+docker build --tag edhowland/hugo hugo/docker/ -f Dockerfile
+
+# === Getting Hugo running V03
+
+{
+cat ./hugo/docker/Dockerfile
+<<'eof' cat
+# setup environment
+RUN DEBIAN_FRONTEND=noninteractive && \
+  apt-get update && \
+  apt-get install -y tree vim zip unzip file net-tools
+WORKDIR /work
+RUN hugo new site quickstart
+
+# Add a Theme
+WORKDIR /work/quickstart
+RUN cd /tmp/ ; \
+    curl -L -O https://github.com/theNewDynamic/gohugo-theme-ananke/archive/master.zip ; \
+    unzip master.zip ; \
+    rm master.zip
+RUN mv /tmp/gohugo-theme-ananke-master ./themes/ananke ;\
+    echo theme = \"ananke\" >> config.toml
+
+# Add some content
+RUN hugo new posts/my-first-post.md
+RUN sed -i -e '/^draft:/s/true/false/' ./content/posts/my-first-post.md
+eof
+} | docker build --tag rwcitek/hugo-quickstart -
+
+# Start the Hugo server
+docker run -d \
+  --name hugo \
+  -p 1313:1313 \
+  rwcitek/hugo-quickstart hugo server --bind 0.0.0.0 -D
+
+
+
+
+# === Getting Hugo running V02
+
+# Create background container
+docker run --rm \
+  -w /work \
+  --name hugo \
+  edhowland/hugo sleep inf & sleep 1
+
+# Verify
+docker exec hugo hugo version
+
+# Interactive
+## docker exec -it hugo /bin/bash
+
+# setup environment
+<<'eof' docker exec -i hugo /bin/bash
+  export DEBIAN_FRONTEND=noninteractive
+  apt-get update
+  apt-get install -y tree vim zip unzip file net-tools
+  hugo new site A_Gentle_Introduction_to_BNF
+eof
+
+# Add a Theme
+<<'eof' docker exec -i -w /work/A_Gentle_Introduction_to_BNF hugo /bin/bash
+  ( cd /tmp/
+    curl -L -O https://github.com/theNewDynamic/gohugo-theme-ananke/archive/master.zip
+    unzip master.zip
+    rm master.zip
+  )
+  mv /tmp/gohugo-theme-ananke-master ./themes/ananke
+  echo theme = \"ananke\" >> config.toml
+eof
+
+# Add some content
+<<'eof' docker exec -i -w /work/A_Gentle_Introduction_to_BNF hugo /bin/bash
+  hugo new posts/my-first-post.md
+  sed -i -e '/^draft:/s/true/false/' ./content/posts/my-first-post.md
+eof
+
+# Commit container to an image
+docker commit hugo rwc/hugo
+
+# Start the Hugo server
+docker run -d \
+  --name hugo \
+  -p 1313:1313 \
+  -w /work/A_Gentle_Introduction_to_BNF \
+  rwc/hugo hugo server --bind 0.0.0.0 -D
+
+
+
+
+
+
+# === Getting Hugo running V01
+
+# Create background container
+docker run --rm \
+  -v ${PWD}/./hugo/:/work \
+  -w /work \
+  --name hugo \
+  -p 1313:1313 \
+  edhowland/hugo sleep inf & sleep 1
+
+# Verify
+docker exec hugo hugo version
+
+# Interactive
+## docker exec -it hugo /bin/bash
+
+# setup environment
+<<'eof' docker exec -i hugo /bin/bash
+  export DEBIAN_FRONTEND=noninteractive
+  apt-get update
+  apt-get install -y tree vim zip unzip file net-tools
+  rm -rf A_Gental_Introduction_to_BNF
+  hugo new site A_Gental_Introduction_to_BNF
+eof
+
+# Add a Theme
+<<'eof' docker exec -i -w /work/A_Gental_Introduction_to_BNF hugo /bin/bash
+  ( cd /tmp/
+    curl -L -O https://github.com/theNewDynamic/gohugo-theme-ananke/archive/master.zip
+    unzip master.zip
+  )
+  mv /tmp/gohugo-theme-ananke-master ./themes/ananke
+  echo theme = \"ananke\" >> config.toml
+eof
+
+# Add some content
+<<'eof' docker exec -i -w /work/A_Gental_Introduction_to_BNF hugo /bin/bash
+  hugo new posts/my-first-post.md
+  sed -i -e '/^draft:/s/true/false/' ./content/posts/my-first-post.md
+eof
+
+# Start the Hugo server
+docker exec \
+  -w /work/A_Gental_Introduction_to_BNF \
+  hugo hugo server --bind 0.0.0.0 -D &
+
+
