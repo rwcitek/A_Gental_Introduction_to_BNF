@@ -1,0 +1,14 @@
+
+
+docker container stop hugo
+docker container rm hugo
+rm -rf ./hugo/A_Gental_Introduction_to_BNF/
+tar -xzf ./A_Gental_Introduction_to_BNF.tgz -C ./hugo/
+./scripts/gen-slides.sh 
+docker run -d \
+  --name hugo \
+  -v ${PWD}/hugo/A_Gental_Introduction_to_BNF:/work \
+  -w /work \
+  -p 1313:1313 \
+  rwcitek/hugo-quickstart
+
