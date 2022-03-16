@@ -9,7 +9,7 @@
 # - cleans up
 
 # prerequisite: create a repo in GitHub and note repo URL, can be HTTPS or SSH
-REMOTE_URL='git@github.com:rwcitek/A_Gental_Introduction_to_BNF.git'
+REMOTE_URL='git@github.com:rwcitek/A_Gentle_Introduction_to_BNF.git'
 <<< $( <<< "${REMOTE_URL}" tr -s '@:/' / ) IFS='/' read scheme host id repo
 
 # clone
