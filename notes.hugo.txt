@@ -12,3 +12,7 @@ docker run -d \
   -p 1313:1313 \
   rwcitek/hugo-quickstart
 
+# open http://localhost:1313/ 
+# open http://penguin.linux.test:1313/ on a Chromebook
+
+
